@@ -1,15 +1,20 @@
-# 🤖 AI-Agents-with-MCP-Server
+# 🧠 MCP Server – AI Tool for Posting on X (Twitter)
 
-A simulation of a distributed multi-agent system where AI agents operate within a grid-based environment and communicate using the **Model Context Protocol (MCP)**. This protocol governs structured communication between agents and the central server to coordinate movement, avoid conflicts, and achieve shared goals in the environment.
+This project allows you to create a **custom AI-powered tool** that can generate and directly **post content to X (formerly Twitter)** using natural language instructions.
 
----
+Instead of writing posts manually, you can interact with the AI by giving simple commands like:
 
-## 🚀 Features
+> “Post a funny one-liner about Monday mornings.”
 
-- **Autonomous Agents**: Multiple agents explore the grid and interact using the MCP protocol.
-- **MCP-Based Communication**: All interactions follow a structured protocol defining agent messages, states, and environment updates.
-- **Grid Environment**: Configurable 2D space with optional obstacles and position tracking.
-- **Conflict Resolution**: Prevents agents from overlapping by context-aware command dispatch.
-- **Centralized Coordination**: A server maintains shared context and governs protocol flow between agents.
+The AI understands the instruction, generates relevant content, and publishes it to your X account through the API.
 
 ---
+
+## ⚙️ Tech Stack Used
+
+- **Node.js** – Server-side JavaScript runtime
+- **Express.js** – Web framework for building APIs
+- **OpenAI GPT** – For generating intelligent and context-aware responses
+- **X (Twitter) API** – To publish generated content directly to X
+- **dotenv** – To securely manage environment variables (API keys, tokens, etc.)
+- **MCP Server SDK** – Powers session-based AI interaction and streaming responses
