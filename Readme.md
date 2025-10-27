@@ -14,7 +14,7 @@ The AI understands the instruction, generates relevant content, and publishes it
 
 - **Node.js** – Server-side JavaScript runtime
 - **Express.js** – Web framework for building APIs
-- **Gemini GPT** – For generating intelligent and context-aware responses
+- **Gemini GPT-Model** – For generating intelligent and context-aware responses
 - **X (Twitter) API** – To publish generated content directly to X
 - **dotenv** – To securely manage environment variables (API keys, tokens, etc.)
 - **MCP Server SDK** – Powers session-based AI interaction and streaming responses
